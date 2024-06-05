@@ -1,0 +1,22 @@
+dotnet ef migrations add InitialCreate --verbose --project FullMono.Repository   --startup-project FullMono.Web
+dotnet ef database update --verbose --project FullMono.Repository   --startup-project FullMono.Web 
+
+
+{
+  "id": "8d299392-fc8d-44cb-8c3c-f151220c3fda",
+  "orderDate": "2024-05-22T23:42:37.563Z",
+  "orderItems": [
+    {
+      "id": "24f2b7db-76fd-4376-bbc9-1910be9e7b33",
+      "orderId": "8d299392-fc8d-44cb-8c3c-f151220c3fda",
+      "productId": "3FA85F64-5717-4562-B3FC-2C963F66AFA6",
+      "quantity": 1
+    }
+  ],
+  "customer": {
+    "id": "76222365-9141-4935-aec0-28d32bbb3b13",
+    "firstName": "Anass",
+    "lastName": "Bh",
+    "email": "anass@gmail.com"
+  }
+}
